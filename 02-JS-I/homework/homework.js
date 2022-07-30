@@ -1,10 +1,10 @@
 // En estas primeras 6 preguntas, reemplaza `null` por la respuesta
 
 // Crea una variable "string", puede contener lo que quieras:
-const nuevaString = 'Hola';
+const nuevaString = 'mono';
 
 // Crea una variable numérica, puede ser cualquier número:
-const nuevoNum = 5 ;
+const nuevoNum = 9 ;
 
 // Crea una variable booleana:
 const nuevoBool = true;
@@ -90,7 +90,7 @@ function mayorQueCincuenta(num) {
   // Devuelve "true" si el argumento de la función "num" es mayor que cincuenta
   // De lo contrario, devuelve "false"
   // Tu código:
-  if (num <50) {
+  if (num >50) {
    return true
   }else 
     return false;
@@ -139,13 +139,13 @@ function elevarAlCubo(num) {
 function elevar(num, exponent) {
   // Devuelve el valor de "num" elevado al exponente dado en "exponent"
   // Tu código:
-  return math.pow (num,exponent)
+  return Math.pow (num,exponent)
 }
 
 function redondearNumero(num) {
   // Redondea "num" al entero más próximo y devuélvelo
   // Tu código:
-  return math.roud(num)
+  return Math.round(num)
 }
 
 function redondearHaciaArriba(num) {
@@ -166,11 +166,11 @@ function esPositivo(numero) {
   //Si el número es negativo, devolver ---> "Es negativo"
   //Si el número es 0, devuelve false
   if(numero> 0){
-    return "es positivo"
+    return "Es positivo"
 }else if(numero<0){
-  return "es negativo"
+  return "Es negativo"
 }else{
-  return}
+  return false}
 }
 
 function agregarSimboloExclamacion(str) {
@@ -184,14 +184,14 @@ function combinarNombres(nombre, apellido) {
   // Devuelve "nombre" y "apellido" combinados en una string y separados por un espacio.
   // Ejemplo: "Soy", "Henry" -> "Soy Henry"
   // Tu código:
-  return(`${NOMBRE} ${apellido}`)
+  return(`${nombre} ${apellido}`)
 }
 
 function obtenerSaludo(nombre) {
   // Toma la string "nombre" y concatena otras string en la cadena para que tome la siguiente forma:
   // "Martin" -> "Hola Martin!"
   // Tu código:
-  return `Hola ${nombre}!`
+  return "Hola " + nombre + "!"
 }
 
 function obtenerAreaRectangulo(alto, ancho) {
